@@ -1,9 +1,9 @@
-import './App.css';
+import './App.scss';
 
 function App() {
   return (
-    <div className="App">
-     
+    <div className="Container">
+     <h1>Bene Editor</h1>
     </div>
   );
 }
