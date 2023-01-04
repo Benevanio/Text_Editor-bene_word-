@@ -1,33 +1,11 @@
-$font-stack:    Helvetica, sans-serif;
-$primary-color: rgb(120, 247, 2);
-body {
-  font-family: $font-stack;
-  font-size: 14px;
-  color: $primary-color;
-  background: #eed3d3;
-  margin: 0;
-  padding: 0;
-  align-items: center;
-  justify-content: center;
-  display: flex;
-  height: 40vh;
-  width: 100vw;
-  
-}
-h1 {
-  font-size: 2em;
-  align-items: center;
-  justify-content: center;
-  display: flex;
-  height: 14vh;
-  width: 100vw;
-}
+
 .editor{
+  position: relative;
   background: #fff;
   border: 1px solid rgb(87, 46, 46);
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
-  height: 80vh;
-  width: 100vw;
-  margin-top: 150px;
+  height: 100%;
+  width: 100%;
+ 
 }
