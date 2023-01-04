@@ -1,14 +1,24 @@
+$font-stack:    Helvetica, sans-serif;
+$primary-color: rgb(120, 247, 2);
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: $font-stack;
   font-size: 14px;
-  color: #333;
-  background: #f5f5f5;
+  color: $primary-color;
+  background: #eed3d3;
   margin: 0;
   padding: 0;
   align-items: center;
   justify-content: center;
   display: flex;
-  height: 100vh;
+  height: 40vh;
   width: 100vw;
   
+}
+h1 {
+  font-size: 2em;
+  color: $primary-color;
+}
+.editor{
+  background: #fff;
+
 }
