@@ -1,3 +1,3 @@
 # TEXT_Editor
 
-![Running!](bene.png)
+![Running](bene.png)
